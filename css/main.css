@@ -122,7 +122,7 @@ html, body {
     width: 100%;
 }
 
-.btn {
+.learn-btn-div {
     display: flex;
     justify-content: center;
 }
