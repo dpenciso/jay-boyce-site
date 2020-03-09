@@ -1,0 +1,12 @@
+
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+}
+
+.nav-list li {
+    display: inline-block;
+    font-size: 1.5rem;
+    
+}
