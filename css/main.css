@@ -1,4 +1,73 @@
+/* font-family: 'Cinzel', serif;
+font-family: 'Nunito Sans', sans-serif; */
 
+html, body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+@media screen and (max-width: 640px) {
+
+.wrapper {
+    width: 100%;
+}
+
+.open {
+    color: #8b8b8b;
+    font-size: 30px;
+    float: right;
+    margin: 1rem;
+    display: block;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.open:hover {
+    color: black;
+    
+}
+
+.nav {
+    width: 0;
+    overflow-x: hidden;
+    height: 100vh;
+    z-index: 1;
+    position: fixed;
+    background-color: white;
+    font-family: 'Cinzel', serif;
+    display: block;
+    text-align: center;
+}
+
+.nav a {
+    clear: left;
+    color: black;
+    font-size: 2rem;
+    display: block;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.nav a:not(:first-child):hover {
+    background-color: red;
+    color: white;
+}
+
+
+
+.close {
+    color: black;
+    font-size: 30px;
+    float: right;
+    margin-right: 1rem;
+    display: block;
+    cursor: pointer;
+    padding-top: 1rem;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+}
 
 .nav-list {
     list-style-type: none;
@@ -9,4 +78,98 @@
     display: inline-block;
     font-size: 1.5rem;
     
+}
+
+.nav-phoenix {
+    width: 60px;
+    float: left;
+    margin-left: 2rem;
+    padding: 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.nav-phoenix:hover {
+    background-color: transparent;
+}
+
+.nav-item {
+    padding: 1rem 0;
+    border-top: 1px solid black;
+}
+
+.nav-item-last {
+    border-bottom: 1px solid black
+}
+
+
+.hero-img {
+    width: 100%;
+}
+
+.home-books {
+    padding: 1rem;
+}
+
+.home-books h1 {
+    font-family: 'Cinzel', serif;
+    color: red;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.home-books img {
+    width: 100%;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+.learn-btn {
+    padding: .5rem;
+    border: red solid 1px;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 1rem;
+    margin: 1rem;
+}
+
+.learn-btn:hover {
+    background-color: red;
+    color: white;
+    border: black solid 1px
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+}
+
+.footer-icons {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+i {
+    color: white;
+}
+
+.footer-icons i p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    color: white;
+}
+
+.copyright {
+    text-align: center;
+}
 }

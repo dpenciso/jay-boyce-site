@@ -4,23 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
     <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel:400,700,900|Nunito+Sans:300,400,700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbar navbar-light bg-light">
-        <a class="navbar-brand" href="#">
-          <img src="images/phoenix.png" width="30" height="30" class="d-inline-block align-top" alt="">
-          Jay Boyce
-        </a>
-        <ul class="nav-list">
-            <li>Home</li>
-            <li>Books</li>
-            <li>Stats</li>
-            <li>About</li>
-        </ul>
-      </nav>
-
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <div class="wrapper">
+    <a href="#"><img src="images/phoenix.png" alt="picture of a red phoenix" class="nav-phoenix"></a>
+    <div class="nav" id="nav">
+      <a href="javascript:void(0)" class="close" onclick="closeNav()">X</a>
+      <a href="#" class="nav-logo"><img src="images/phoenix.png" class="nav-phoenix" alt="picture of red phoenix"></a>
+      <a href="#" class="nav-item">Home</a>
+      <a href="#" class="nav-item">Books</a>
+      <a href="#" class="nav-item">Stats</a>
+      <a href="#" class="nav-item nav-item-last">About</a>
+    </div> <!-- end of nav div -->
+    <span id="open" class="open" onclick="openNav()">&#9776</span>
+  </div> <!-- end of wrapper -->
+  <div class="hero">
+    <div class="hero-img-div">
+      <img src="images/sense1.jpg" alt="picture of the book sense on a wooden table" class="hero-img">
+    </div> <!-- end of img div -->
+  </div> <!-- end of hero div -->
+  <div class="home-books">
+    <h1>A Touch of Power Series</h1>
+    <img src="images/A_Touch_Of_Power_Series.png" alt="3 books in the a touch of power series">
+    <p>Jade has spent her life fighting boredom in the terminally ill ward. After waking up one morning without the sounds of her life support, she opens her eyes and finds herself with a weak but healthy body in a magical world.</br>Only five days have passed since Jade was brought to a distant world and a new life. Mobile for the first time ever, Jade is given the chance to do something she's always wanted: attend school. Dracona isn't your typical school, however.</p>
+    <div class="btn">
+      <button class="learn-btn">Learn More</button>
+    </div> <!-- end of btn div -->
+  </div> <!-- end of home books -->
+  <footer>
+    <div class="footer-icons">
+      <a href="#"><i class="fab fa-facebook"><p>Facebook</p></i></a>
+      <a href="#"><i class="fab fa-discord"><p>Discord</p></i></a>
+      <a href="#"><i class="fas fa-book-open"><p>Publisher</p></i></a>
+  </div>
+  <p class="copyright">&copy;Jay Boyce 2020</p>
+  </footer>
+<script src="https://kit.fontawesome.com/82e4275e9f.js" crossorigin="anonymous"></script>
+<script src="js/scripts.js"></script>
 </body>
 </html>
