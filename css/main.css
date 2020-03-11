@@ -6,6 +6,7 @@ html, body {
     margin: 0;
     width: 100%;
     font-family: 'Nunito Sans', sans-serif;
+    
 }
 
 @media screen and (max-width: 640px) {
@@ -108,10 +109,11 @@ html, body {
 }
 
 .home-books {
-    padding: 1rem;
+    padding: 2rem;
+    font-size: 1.5rem;
 }
 
-.home-books h1 {
+.home-h1 {
     font-family: 'Cinzel', serif;
     color: red;
     text-align: center;
@@ -171,5 +173,140 @@ i {
 
 .copyright {
     text-align: center;
+}
+}
+
+@media screen and (min-width: 641px) {
+    
+.wrapper {
+    width: 100%;
+}
+
+.nav-logo {
+    display: none;
+}
+
+.close {
+    display: none;
+}
+
+.open {
+    display: none;
+}
+
+.nav {
+    display: inline-block;
+    float: right;
+    padding-top: 4rem;
+    padding-right: 1rem;
+}
+
+.nav-item {
+    color: black;
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 0 1rem;
+}
+
+.nav-item:hover {
+    color: red;
+}
+
+.nav-phoenix {
+    width: 70px;
+    padding: 1rem;
+}
+
+.hero {
+    width: 100%;
+}
+
+.hero-img-div {
+    width: 100%;
+}
+
+.hero-img {
+    width: 100%;
+}
+
+.home-books {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.home-books img {
+    width: 50%;
+    height: 50%;
+}
+
+.home-h1 {
+    font-family: 'Cinzel', serif;
+    color: red;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.book-description-btn {
+    padding: 2rem;
+}
+
+.learn-btn-div {
+    display: flex;
+    justify-content: center;
+}
+
+.learn-btn {
+    padding: .5rem;
+    border: red solid 1px;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 1rem;
+    margin: 1rem;
+}
+
+.learn-btn:hover {
+    background-color: red;
+    color: white;
+    border: black solid 1px
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 1rem 10rem;
+}
+
+.footer-icons {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+i {
+    color: white;
+}
+
+.footer-icons i p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    color: white;
+}
+
+.copyright {
+    text-align: center;
+}
+
+}
+
+@media screen and (min-width: 1201px) {
+footer {
+    padding: 1rem 20rem;
 }
 }
