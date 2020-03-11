@@ -130,7 +130,7 @@ html, body {
 }
 
 .learn-btn {
-    padding: .5rem;
+    padding: .75rem;
     border: red solid 1px;
     background-color: white;
     border-radius: 10px;
@@ -258,7 +258,7 @@ i {
 }
 
 .learn-btn {
-    padding: .5rem;
+    padding: .75rem;
     border: red solid 1px;
     background-color: white;
     border-radius: 10px;
@@ -306,7 +306,12 @@ i {
 }
 
 @media screen and (min-width: 1201px) {
-footer {
+.home-books {
+    align-items: flex-start;
+}
+
+
+    footer {
     padding: 1rem 20rem;
 }
 }
