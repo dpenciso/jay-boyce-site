@@ -112,6 +112,30 @@ html, body {
     display: none;
 }
 
+.hero {
+    position: relative;
+    color: white;
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.hero-text {
+    position: absolute;
+    top: 40%;
+    right: 8%;
+}
+
+.buy-btn {
+    padding: .75 1rem;
+    border: white solid 1px;
+    background-color: transparent;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: white;
+}
+
 .hero-img {
     display: none;
 }
