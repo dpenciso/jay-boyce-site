@@ -118,6 +118,7 @@ html, body {
     color: red;
     text-align: center;
     font-size: 2.5rem;
+    padding: 1rem;
 }
 
 .home-books img {
@@ -141,7 +142,7 @@ html, body {
 .learn-btn:hover {
     background-color: red;
     color: white;
-    border: black solid 1px
+    border: black solid 1px;
 }
 
 footer {
@@ -254,7 +255,7 @@ i {
 
 .learn-btn-div {
     display: flex;
-    justify-content: center;
+    justify-content: start;
 }
 
 .learn-btn {
@@ -263,7 +264,7 @@ i {
     background-color: white;
     border-radius: 10px;
     font-size: 1rem;
-    margin: 1rem;
+    margin: 1rem 0;
 }
 
 .learn-btn:hover {
