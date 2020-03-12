@@ -104,8 +104,16 @@ html, body {
 }
 
 
-.hero-img {
+.mobile-hero-img {
     width: 100%;
+}
+
+.tablet-hero-img {
+    display: none;
+}
+
+.hero-img {
+    display: none;
 }
 
 .home-books {
@@ -196,7 +204,7 @@ i {
 }
 
 .nav {
-    display: inline-block;
+    display: block;
     float: right;
     padding-top: 4rem;
     padding-right: 1rem;
@@ -214,7 +222,7 @@ i {
 }
 
 .nav-phoenix {
-    width: 200px;
+    width: 160px;
     padding: .5rem 2rem;
 }
 
@@ -226,8 +234,17 @@ i {
     width: 100%;
 }
 
-.hero-img {
+.mobile-hero-img {
+    display: none;
+}
+
+.tablet-hero-img {
+    display: block;
     width: 100%;
+}
+
+.hero-img {
+    display: none;
 }
 
 .home-books {
@@ -307,10 +324,24 @@ i {
 }
 
 @media screen and (min-width: 1201px) {
+.nav-phoenix {
+    width: 200px;
+    padding: 0rem 2rem;
+    margin-top: .5rem;
+}
+
 .home-books {
     align-items: flex-start;
 }
 
+.tablet-hero-img {
+    display: none;
+}
+
+.hero-img {
+    display: block;
+    width: 100%;
+}
 
     footer {
     padding: 1rem 20rem;
