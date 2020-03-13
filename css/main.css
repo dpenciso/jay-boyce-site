@@ -13,6 +13,9 @@ html, body {
 
 .wrapper {
     width: 100%;
+    z-index: 100;
+    background-color: white;
+    overflow: hidden;
 }
 
 .open {
@@ -55,8 +58,6 @@ html, body {
     background-color: red;
     color: white;
 }
-
-
 
 .close {
     color: black;
@@ -123,7 +124,7 @@ html, body {
 
 .hero-text {
     position: absolute;
-    top: 40%;
+    top: 25%;
     right: 8%;
 }
 
@@ -217,6 +218,9 @@ i {
     
 .wrapper {
     width: 100%;
+    z-index: 100;
+    background-color: white;
+    overflow: hidden;
 }
 
 .nav-logo {
@@ -264,7 +268,7 @@ i {
     color: white;
     font-family: 'Cinzel', serif;
     font-size: 2.5rem;
-    top: 9%;
+    top: 20%;
     right: 10%;
     text-align: center;
 }
@@ -276,6 +280,10 @@ i {
     border-radius: 10px;
     font-size: 1.5rem;
     color: white;
+}
+
+.margin-0 {
+    margin-top: 0;
 }
 
 .buy-btn:hover {
@@ -378,7 +386,7 @@ i {
 @media screen and (min-width: 850px) {
 .hero-text {
     font-size: 3.25rem;
-    top: 10%;
+    top: 20%;
 }
 }
 
@@ -407,7 +415,7 @@ i {
     color: white;
     font-family: 'Cinzel', serif;
     font-size: 4rem;
-    top: 10%;
+    top: 20%;
     right: 15%;
     text-align: center;
 }
@@ -433,6 +441,6 @@ i {
 @media screen and (min-width: 1600px) {
 .hero-text {
     font-size: 5rem;
-    top: 15%;
-}
+    top: 25%;
+
 }
