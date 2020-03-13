@@ -139,6 +139,7 @@ html, body {
 
 .buy-btn:hover {
     background-color: rgba(255, 255, 255, 0.329);
+    cursor: pointer;
 }
 
 .hero-img {
@@ -177,9 +178,8 @@ html, body {
 }
 
 .learn-btn:hover {
-    background-color: red;
-    color: white;
-    border: black solid 1px;
+    background-color: rgba(0, 0, 0, 0.13);
+    cursor: pointer;
 }
 
 footer {
@@ -288,6 +288,7 @@ i {
 
 .buy-btn:hover {
     background-color: rgba(255, 255, 255, 0.329);
+    cursor: pointer;
 }
 
 .hero-img-div {
@@ -345,9 +346,8 @@ i {
 }
 
 .learn-btn:hover {
-    background-color: red;
-    color: white;
-    border: black solid 1px
+    background-color: rgba(0, 0, 0, 0.13);
+    cursor: pointer;
 }
 
 footer {
