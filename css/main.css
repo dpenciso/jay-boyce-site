@@ -136,6 +136,10 @@ html, body {
     color: white;
 }
 
+.buy-btn:hover {
+    background-color: rgba(255, 255, 255, 0.329);
+}
+
 .hero-img {
     display: none;
 }
@@ -259,9 +263,9 @@ i {
     position: absolute;
     color: white;
     font-family: 'Cinzel', serif;
-    font-size: 2rem;
-    top: 15%;
-    right: 8%;
+    font-size: 2.5rem;
+    top: 9%;
+    right: 10%;
     text-align: center;
 }
 
@@ -272,6 +276,10 @@ i {
     border-radius: 10px;
     font-size: 1.5rem;
     color: white;
+}
+
+.buy-btn:hover {
+    background-color: rgba(255, 255, 255, 0.329);
 }
 
 .hero-img-div {
@@ -367,6 +375,13 @@ i {
 
 }
 
+@media screen and (min-width: 850px) {
+.hero-text {
+    font-size: 3.25rem;
+    top: 10%;
+}
+}
+
 @media screen and (min-width: 1201px) {
 .nav-phoenix {
     width: 200px;
@@ -391,9 +406,9 @@ i {
     position: absolute;
     color: white;
     font-family: 'Cinzel', serif;
-    font-size: 3rem;
-    top: 15%;
-    right: 8%;
+    font-size: 4rem;
+    top: 10%;
+    right: 15%;
     text-align: center;
 }
 
@@ -406,7 +421,18 @@ i {
     color: white;
 }
 
+.buy-btn:hover {
+    background-color: rgba(255, 255, 255, 0.329);
+}
+
     footer {
     padding: 1rem 20rem;
+}
+}
+
+@media screen and (min-width: 1600px) {
+.hero-text {
+    font-size: 5rem;
+    top: 15%;
 }
 }
