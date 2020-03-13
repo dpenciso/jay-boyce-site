@@ -231,6 +231,7 @@ i {
     z-index: 100;
     background-color: white;
     overflow: hidden;
+    border-bottom: gray 2px solid;
 }
 
 .nav-logo {
@@ -330,6 +331,16 @@ i {
     height: 33%;
 }
 
+.home-books-tablet img {
+    width: 100%;
+    height: 100%;
+}
+
+.book-img {
+    width: 75rem;
+    padding: 3rem;
+}
+
 .home-h1 {
     font-family: 'Cinzel', serif;
     color: red;
@@ -408,7 +419,7 @@ i {
 }
 
 .home-books {
-    align-items: flex-start;
+    align-items: center;
 }
 
 .tablet-hero-img {
@@ -428,6 +439,14 @@ i {
     top: 20%;
     right: 15%;
     text-align: center;
+}
+
+.book-img {
+    padding: 5rem;
+}
+
+.book-description-btn {
+    align-self: center;
 }
 
 .buy-btn {
