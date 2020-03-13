@@ -246,12 +246,32 @@ i {
 }
 
 .nav-phoenix {
+    position: relative;
     width: 160px;
     padding: .5rem 2rem;
 }
 
 .hero {
     width: 100%;
+}
+
+.hero-text {
+    position: absolute;
+    color: white;
+    font-family: 'Cinzel', serif;
+    font-size: 2rem;
+    top: 15%;
+    right: 8%;
+    text-align: center;
+}
+
+.buy-btn {
+    padding: .75rem 1.25rem;
+    border: white solid 1px;
+    background-color: transparent;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    color: white;
 }
 
 .hero-img-div {
@@ -365,6 +385,25 @@ i {
 .hero-img {
     display: block;
     width: 100%;
+}
+
+.hero-text {
+    position: absolute;
+    color: white;
+    font-family: 'Cinzel', serif;
+    font-size: 3rem;
+    top: 15%;
+    right: 8%;
+    text-align: center;
+}
+
+.buy-btn {
+    padding: .75rem 1.25rem;
+    border: white solid 1px;
+    background-color: transparent;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    color: white;
 }
 
     footer {
