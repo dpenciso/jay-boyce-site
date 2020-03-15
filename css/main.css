@@ -129,8 +129,6 @@ html, body {
     right: 8%;
 }
 
-
-
 .buy-btn {
     padding: .25rem .5rem;
     border: white solid 1px;
@@ -161,6 +159,13 @@ html, body {
     width: 50%;
 }
 
+.author-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
 .home-h1 {
     font-family: 'Cinzel', serif;
     color: red;
@@ -171,6 +176,25 @@ html, body {
 
 .home-books img {
     width: 100%;
+}
+
+.about-books {
+    width: 100%;
+    display: block;
+}
+
+.about-books-img {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-books img {
+    width: 100%;
+}
+
+.tablet-about-books {
+    display: none;
 }
 
 .learn-btn-div {
@@ -341,6 +365,11 @@ i {
     padding: 3rem;
 }
 
+.author-img {
+    width: 200rem;
+    padding: 3rem;
+}
+
 .home-h1 {
     font-family: 'Cinzel', serif;
     color: red;
@@ -352,9 +381,33 @@ i {
     padding: 2rem;
 }
 
+.home-books img {
+    width: 100%;
+}
+
+.about-books {
+    width: 100%;
+    display: block;
+}
+
+.about-books-img {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.about-books img {
+    width: 33%;
+}
+
+.mobile-about-books {
+    display: none;
+}
+
 .learn-btn-div {
     display: flex;
-    justify-content: start;
+    justify-content: center;
 }
 
 .learn-btn {
