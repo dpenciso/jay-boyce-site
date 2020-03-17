@@ -200,6 +200,7 @@ html, body {
 .learn-btn-div {
     display: flex;
     justify-content: center;
+    margin-bottom: 2.5rem;
 }
 
 .learn-btn {
@@ -347,6 +348,7 @@ i {
     width: 100%;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     font-size: 1rem;
 }
 
@@ -358,6 +360,10 @@ i {
 .home-books-tablet img {
     width: 100%;
     height: 100%;
+}
+
+.home-book-img {
+    width: 100rem;
 }
 
 .book-img {
@@ -408,6 +414,7 @@ i {
 .learn-btn-div {
     display: flex;
     justify-content: center;
+    margin-bottom: 5rem;
 }
 
 .learn-btn {
